@@ -1,0 +1,59 @@
+@import url(font/usesf.css);
+
+
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body, html {
+    padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: 'San Francisco Display', sans-serif;
+    background-color: #f5f5f5;
+
+}
+iframe {
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	height: 250px;
+}
+
+.form-control {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#send {
+	background-color: #4169E1;
+	color: white;
+}
+
+h1,h3 {
+	text-transform: uppercase;
+}
+
+p{
+	font-size: large;
+}
+
+.navbar-header {
+	height: 50px;
+	background-color: #4169E1;
+	border-bottom:2px solid #ffdd00;
+}
+
+.navbar-collapse:hover{
+	background-color: #4169E1;
+}
+
+#logo{
+	margin-top: -3px;
+	width: 70px;
+}
+
+.content {
+	margin-top: 0;
+}
+
