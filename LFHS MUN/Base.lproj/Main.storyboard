@@ -20,11 +20,11 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LV-6i-vK1">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.93821022727272729" green="0.93821022727272729" blue="0.93821022727272729" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.95140861742424243" green="0.95140861742424243" blue="0.95140861742424243" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="8LV-6i-vK1" secondAttribute="trailing" id="1DZ-Jr-ASG"/>
                             <constraint firstItem="8LV-6i-vK1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Xr-7u-28U"/>

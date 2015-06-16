@@ -7,6 +7,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
 body, html {
     padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     font-family: 'San Francisco Display', sans-serif;
@@ -17,6 +19,10 @@ body, html {
 	width: calc(100% + 30px);
 	margin-left: -15px;
 	height: 250px;
+}
+
+.news {
+	margin-top: -10px;
 }
 
 .form-control {
