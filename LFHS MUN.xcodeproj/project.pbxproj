@@ -108,6 +108,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A1568E21B2FAD460004A554 /* Objective-C code */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CDF971B2F80B10059AEB0 /* AppDelegate.h */,
+				8A3CDF981B2F80B10059AEB0 /* AppDelegate.m */,
+				8A3CDF9A1B2F80B10059AEB0 /* ViewController.h */,
+				8A3CDF9B1B2F80B10059AEB0 /* ViewController.m */,
+				8A3CDFD71B2F82C60059AEB0 /* Reachability.h */,
+				8A3CDFD81B2F82C60059AEB0 /* Reachability.m */,
+			);
+			name = "Objective-C code";
+			sourceTree = "<group>";
+		};
+		8A1568E31B2FAD730004A554 /* Storyboard and Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CDF9D1B2F80B10059AEB0 /* Main.storyboard */,
+				8A3CDFA21B2F80B10059AEB0 /* LaunchScreen.xib */,
+			);
+			name = "Storyboard and Launch Screen";
+			sourceTree = "<group>";
+		};
+		8A1568E41B2FAD890004A554 /* HTML, CSS, and JS code */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFAE181B2F9364007F2791 /* breaking.html */,
+				8A3CDFB91B2F82710059AEB0 /* about.html */,
+				8A3CDFBA1B2F82710059AEB0 /* contact.html */,
+				8A3CDFBB1B2F82710059AEB0 /* css */,
+				8A3CDFBC1B2F82710059AEB0 /* fonts */,
+				8A3CDFBD1B2F82710059AEB0 /* img */,
+				8A3CDFBE1B2F82710059AEB0 /* index.html */,
+				8A3CDFBF1B2F82710059AEB0 /* js */,
+				8A3CDFC01B2F82710059AEB0 /* meeting.html */,
+				8A3CDFC21B2F82710059AEB0 /* tonight.html */,
+			);
+			name = "HTML, CSS, and JS code";
+			sourceTree = "<group>";
+		};
+		8A1568E51B2FADA40004A554 /* Xcode Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CDFA01B2F80B10059AEB0 /* Images.xcassets */,
+				8A3CDFDB1B2F867F0059AEB0 /* 57.png */,
+				8A3CDFDC1B2F867F0059AEB0 /* 120.png */,
+				8A3CDFDD1B2F867F0059AEB0 /* 180.png */,
+				8A3CDFDE1B2F867F0059AEB0 /* 87.png */,
+				8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */,
+			);
+			name = "Xcode Assets";
+			sourceTree = "<group>";
+		};
 		8A3CDF871B2F80B10059AEB0 = {
 			isa = PBXGroup;
 			children = (
@@ -129,30 +181,10 @@
 		8A3CDF921B2F80B10059AEB0 /* LFHS MUN */ = {
 			isa = PBXGroup;
 			children = (
-				8A3CDF971B2F80B10059AEB0 /* AppDelegate.h */,
-				8A3CDF981B2F80B10059AEB0 /* AppDelegate.m */,
-				8A3CDF9A1B2F80B10059AEB0 /* ViewController.h */,
-				8A3CDF9B1B2F80B10059AEB0 /* ViewController.m */,
-				8A3CDFD71B2F82C60059AEB0 /* Reachability.h */,
-				8A3CDFD81B2F82C60059AEB0 /* Reachability.m */,
-				8A3CDF9D1B2F80B10059AEB0 /* Main.storyboard */,
-				8A3CDFA01B2F80B10059AEB0 /* Images.xcassets */,
-				8A3CDFA21B2F80B10059AEB0 /* LaunchScreen.xib */,
-				8AFFAE181B2F9364007F2791 /* breaking.html */,
-				8A3CDFB91B2F82710059AEB0 /* about.html */,
-				8A3CDFBA1B2F82710059AEB0 /* contact.html */,
-				8A3CDFBB1B2F82710059AEB0 /* css */,
-				8A3CDFBC1B2F82710059AEB0 /* fonts */,
-				8A3CDFBD1B2F82710059AEB0 /* img */,
-				8A3CDFBE1B2F82710059AEB0 /* index.html */,
-				8A3CDFBF1B2F82710059AEB0 /* js */,
-				8A3CDFC01B2F82710059AEB0 /* meeting.html */,
-				8A3CDFC21B2F82710059AEB0 /* tonight.html */,
-				8A3CDFDB1B2F867F0059AEB0 /* 57.png */,
-				8A3CDFDC1B2F867F0059AEB0 /* 120.png */,
-				8A3CDFDD1B2F867F0059AEB0 /* 180.png */,
-				8A3CDFDE1B2F867F0059AEB0 /* 87.png */,
-				8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */,
+				8A1568E21B2FAD460004A554 /* Objective-C code */,
+				8A1568E31B2FAD730004A554 /* Storyboard and Launch Screen */,
+				8A1568E41B2FAD890004A554 /* HTML, CSS, and JS code */,
+				8A1568E51B2FADA40004A554 /* Xcode Assets */,
 				8A3CDF931B2F80B10059AEB0 /* Supporting Files */,
 			);
 			path = "LFHS MUN";

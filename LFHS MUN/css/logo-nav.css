@@ -17,7 +17,6 @@ body, html {
 	width: calc(100% + 30px);
 	margin-left: -15px;
 	height: 250px;
-	margin-top: 25px;
 }
 
 .form-control {

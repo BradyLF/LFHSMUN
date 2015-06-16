@@ -38,7 +38,7 @@
     if (networkStatus == NotReachable) {
         NSLog(@"There IS NOT internet connection");
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"No network connection"
-                                                        message:@"You must be connected to the internet to use this app. Aspects of LFHS will not function properly unless connected to the internet."
+                                                        message:@"You must be connected to the internet to use this app. Essential features of LFHS MUN such as Breaking News will not function properly unless connected to the internet."
                                                        delegate:nil
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];
