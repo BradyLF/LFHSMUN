@@ -7,22 +7,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
 body, html {
     padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     font-family: 'San Francisco Display', sans-serif;
     background-color: #f5f5f5;
 
 }
-
-.breaking {
-    font-family: 'San Francisco Display', sans-serif;
-    background-color: #f5f5f5;
-
-}
-iframe {
+.ytvideo {
 	width: calc(100% + 30px);
 	margin-left: -15px;
 	height: 250px;
+}
+
+.news {
+	margin-top: -10px;
 }
 
 .form-control {
@@ -36,8 +36,15 @@ iframe {
 	color: white;
 }
 
-h1,h3 {
+h1 {
 	text-transform: uppercase;
+	font-weight: 300;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+	border-bottom: 2px solid #4169E1;
 }
 
 p{
