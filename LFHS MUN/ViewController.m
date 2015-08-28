@@ -62,11 +62,10 @@
     MainWebView.scrollView.bounces = NO;
     
     
+    
 }
 
-
 - (void)loadWebView {
-    [self loadWebViewBar];
     // Remember that bundle resources do *not* have directories so all filenames must be unique.
     NSBundle *mainBundle = [NSBundle mainBundle];
     NSURL *homeIndexUrl = [mainBundle URLForResource:@"index" withExtension:@"html"];
@@ -78,7 +77,6 @@
     NSString * jsCallBack = @"window.getSelection().removeAllRanges();";
     [MainWebView stringByEvaluatingJavaScriptFromString:jsCallBack];
     
-    [self finishedLoading];
 }
 - (IBAction)loadPage:(id)sender;
 
@@ -97,32 +95,6 @@
     return YES;
 }
 
--(void)loadWebViewBar {
-    myProgressView.progress = 0;
-    theBool = false;
-    //0.01667 is roughly 1/60, so it will update at 60 FPS
-    myTimer = [NSTimer scheduledTimerWithTimeInterval:0.01667 target:self selector:@selector(timerCallback) userInfo:nil repeats:YES];
-}
--(void)finishedLoading {
-    theBool = true;
-}
--(void)timerCallback {
-    if (theBool) {
-        if (myProgressView.progress >= 1) {
-            myProgressView.hidden = true;
-            [myTimer invalidate];
-        }
-        else {
-            myProgressView.progress += 0.1;
-        }
-    }
-    else {
-        myProgressView.progress += 0.05;
-        if (myProgressView.progress >= 0.95) {
-            myProgressView.progress = 0.95;
-        }
-    }
-}
 
 - (void)viewDidUnload
 {
@@ -143,8 +115,14 @@
 
 #pragma mark - Web View Delegate
 
-- (void)webViewDidFinishLoad:MainWebView
+- (void)webViewDidStartLoad:(UIWebView *)webView
 {
-    [self.spinningWheel stopAnimating];
+    [spinningWheel startAnimating];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [spinningWheel stopAnimating];
+    spinningWheel.hidden = TRUE;
 }
 @end

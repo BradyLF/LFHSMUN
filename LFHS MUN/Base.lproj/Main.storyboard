@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -21,19 +20,30 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.93821022727272729" green="0.93821022727272729" blue="0.93821022727272729" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="E8K-Mj-nL7"/>
+                                </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="E2s-NP-n4L">
+                                <rect key="frame" x="282" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.28603688664377958" green="0.41626711637536273" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.95140861742424243" green="0.95140861742424243" blue="0.95140861742424243" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="8LV-6i-vK1" secondAttribute="trailing" id="1DZ-Jr-ASG"/>
                             <constraint firstItem="8LV-6i-vK1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Xr-7u-28U"/>
+                            <constraint firstItem="E2s-NP-n4L" firstAttribute="centerY" secondItem="8LV-6i-vK1" secondAttribute="centerY" id="HlB-az-azC"/>
                             <constraint firstItem="8LV-6i-vK1" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="O5V-ei-50R"/>
+                            <constraint firstItem="E2s-NP-n4L" firstAttribute="centerX" secondItem="8LV-6i-vK1" secondAttribute="centerX" id="dPb-Ad-pqY"/>
                             <constraint firstItem="8LV-6i-vK1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lcu-NT-z2S"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="MainWebView" destination="8LV-6i-vK1" id="fQj-lN-ESi"/>
+                        <outlet property="spinningWheel" destination="E2s-NP-n4L" id="eeN-Oe-3uG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

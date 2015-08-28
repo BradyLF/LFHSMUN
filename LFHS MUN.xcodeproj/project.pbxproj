@@ -34,14 +34,10 @@
 		8A3CDFD61B2F82710059AEB0 /* tonight.html in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFC21B2F82710059AEB0 /* tonight.html */; };
 		8A3CDFD91B2F82C60059AEB0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDFD81B2F82C60059AEB0 /* Reachability.m */; };
 		8A3CDFDA1B2F82C60059AEB0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDFD81B2F82C60059AEB0 /* Reachability.m */; };
-		8A3CDFE01B2F867F0059AEB0 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDB1B2F867F0059AEB0 /* 57.png */; };
-		8A3CDFE11B2F867F0059AEB0 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDB1B2F867F0059AEB0 /* 57.png */; };
 		8A3CDFE21B2F867F0059AEB0 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDC1B2F867F0059AEB0 /* 120.png */; };
 		8A3CDFE31B2F867F0059AEB0 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDC1B2F867F0059AEB0 /* 120.png */; };
 		8A3CDFE41B2F867F0059AEB0 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDD1B2F867F0059AEB0 /* 180.png */; };
 		8A3CDFE51B2F867F0059AEB0 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDD1B2F867F0059AEB0 /* 180.png */; };
-		8A3CDFE61B2F867F0059AEB0 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDE1B2F867F0059AEB0 /* 87.png */; };
-		8A3CDFE71B2F867F0059AEB0 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDE1B2F867F0059AEB0 /* 87.png */; };
 		8A3CDFE81B2F867F0059AEB0 /* MUN.psd in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */; };
 		8A3CDFE91B2F867F0059AEB0 /* MUN.psd in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */; };
 		8ABEFE051B2FD532007A98AC /* tonightserver.html in Resources */ = {isa = PBXBuildFile; fileRef = 8ABEFE041B2FD532007A98AC /* tonightserver.html */; };
@@ -50,6 +46,8 @@
 		8ABEFE091B2FDDE9007A98AC /* breakingnews.html in Resources */ = {isa = PBXBuildFile; fileRef = 8ABEFE071B2FDDE9007A98AC /* breakingnews.html */; };
 		8ABEFE0B1B2FDE4E007A98AC /* conference.html in Resources */ = {isa = PBXBuildFile; fileRef = 8ABEFE0A1B2FDE4E007A98AC /* conference.html */; };
 		8ABEFE0C1B2FDE4E007A98AC /* conference.html in Resources */ = {isa = PBXBuildFile; fileRef = 8ABEFE0A1B2FDE4E007A98AC /* conference.html */; };
+		8AE9BF3F1B85819000BBE65A /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE9BF3D1B85819000BBE65A /* 57.png */; };
+		8AE9BF401B85819000BBE65A /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE9BF3E1B85819000BBE65A /* 87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,14 +85,14 @@
 		8A3CDFC21B2F82710059AEB0 /* tonight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tonight.html; sourceTree = "<group>"; };
 		8A3CDFD71B2F82C60059AEB0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8A3CDFD81B2F82C60059AEB0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		8A3CDFDB1B2F867F0059AEB0 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		8A3CDFDC1B2F867F0059AEB0 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
 		8A3CDFDD1B2F867F0059AEB0 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
-		8A3CDFDE1B2F867F0059AEB0 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 		8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MUN.psd; sourceTree = "<group>"; };
 		8ABEFE041B2FD532007A98AC /* tonightserver.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tonightserver.html; sourceTree = "<group>"; };
 		8ABEFE071B2FDDE9007A98AC /* breakingnews.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = breakingnews.html; sourceTree = "<group>"; };
 		8ABEFE0A1B2FDE4E007A98AC /* conference.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conference.html; sourceTree = "<group>"; };
+		8AE9BF3D1B85819000BBE65A /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		8AE9BF3E1B85819000BBE65A /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				8A3CDFA01B2F80B10059AEB0 /* Images.xcassets */,
-				8A3CDFDB1B2F867F0059AEB0 /* 57.png */,
 				8A3CDFDC1B2F867F0059AEB0 /* 120.png */,
+				8AE9BF3D1B85819000BBE65A /* 57.png */,
+				8AE9BF3E1B85819000BBE65A /* 87.png */,
 				8A3CDFDD1B2F867F0059AEB0 /* 180.png */,
-				8A3CDFDE1B2F867F0059AEB0 /* 87.png */,
 				8A3CDFDF1B2F867F0059AEB0 /* MUN.psd */,
 			);
 			name = "Xcode Assets";
@@ -269,7 +267,7 @@
 		8A3CDF881B2F80B10059AEB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Brady Africk";
 				TargetAttributes = {
 					8A3CDF8F1B2F80B10059AEB0 = {
@@ -305,8 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE9BF401B85819000BBE65A /* 87.png in Resources */,
 				8A3CDFE41B2F867F0059AEB0 /* 180.png in Resources */,
-				8A3CDFE01B2F867F0059AEB0 /* 57.png in Resources */,
 				8ABEFE0B1B2FDE4E007A98AC /* conference.html in Resources */,
 				8A3CDFCB1B2F82710059AEB0 /* img in Resources */,
 				8A3CDFE81B2F867F0059AEB0 /* MUN.psd in Resources */,
@@ -316,9 +314,9 @@
 				8A3CDFCD1B2F82710059AEB0 /* index.html in Resources */,
 				8A3CDFC31B2F82710059AEB0 /* about.html in Resources */,
 				8A3CDFCF1B2F82710059AEB0 /* js in Resources */,
-				8A3CDFE61B2F867F0059AEB0 /* 87.png in Resources */,
 				8ABEFE051B2FD532007A98AC /* tonightserver.html in Resources */,
 				8A3CDFC91B2F82710059AEB0 /* fonts in Resources */,
+				8AE9BF3F1B85819000BBE65A /* 57.png in Resources */,
 				8A3CDF9F1B2F80B10059AEB0 /* Main.storyboard in Resources */,
 				8A3CDFD51B2F82710059AEB0 /* tonight.html in Resources */,
 				8A3CDFA41B2F80B10059AEB0 /* LaunchScreen.xib in Resources */,
@@ -332,7 +330,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3CDFE71B2F867F0059AEB0 /* 87.png in Resources */,
 				8A3CDFD21B2F82710059AEB0 /* meeting.html in Resources */,
 				8A3CDFE31B2F867F0059AEB0 /* 120.png in Resources */,
 				8A3CDFCC1B2F82710059AEB0 /* img in Resources */,
@@ -341,7 +338,6 @@
 				8A3CDFC81B2F82710059AEB0 /* css in Resources */,
 				8A3CDFC41B2F82710059AEB0 /* about.html in Resources */,
 				8A3CDFD01B2F82710059AEB0 /* js in Resources */,
-				8A3CDFE11B2F867F0059AEB0 /* 57.png in Resources */,
 				8A3CDFD61B2F82710059AEB0 /* tonight.html in Resources */,
 				8A3CDFCE1B2F82710059AEB0 /* index.html in Resources */,
 				8ABEFE0C1B2FDE4E007A98AC /* conference.html in Resources */,
@@ -426,6 +422,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -492,9 +489,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LFHS MUN/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BradyLF.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.4;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -504,9 +503,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LFHS MUN/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BradyLF.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.4;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -525,6 +526,7 @@
 				);
 				INFOPLIST_FILE = "LFHS MUNTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BradyLF.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFHS MUN.app/LFHS MUN";
 			};
@@ -540,6 +542,7 @@
 				);
 				INFOPLIST_FILE = "LFHS MUNTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BradyLF.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFHS MUN.app/LFHS MUN";
 			};
