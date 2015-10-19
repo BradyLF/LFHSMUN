@@ -29,6 +29,12 @@ iframe {
 	height: 250px;
 }
 
+.ytvideoTwo {
+	width: calc(100%);
+	margin-left: -15px;
+	height: 250px;
+}
+
 .news {
 	margin-top: -10px;
 }
