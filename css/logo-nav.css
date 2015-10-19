@@ -24,7 +24,7 @@ iframe {
 }
 
 .ytvideo {
-	width: calc(100% + 30px);
+	width: 100%;
 	margin-left: -15px;
 	height: 250px;
 }
