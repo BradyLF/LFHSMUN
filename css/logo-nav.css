@@ -24,13 +24,13 @@ iframe {
 }
 
 .ytvideo {
-	width: 100%;
+	width: calc(100% + 30px);
 	margin-left: -15px;
 	height: 250px;
 }
 
 .ytvideoTwo {
-	width: calc(110%);
+	width: calc(100% + 30px);
 	margin-left: -15px;
 	height: 250px;
 }
